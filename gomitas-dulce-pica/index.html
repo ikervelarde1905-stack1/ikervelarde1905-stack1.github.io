@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#d92d20">
+  <meta name="description" content="Dulce & Pica - gomitas enchiladas artesanales para compartir, regalar y disfrutar.">
+  <title>Dulce & Pica | Gomitas enchiladas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <p>Envios a todo el pais <span>·</span> Pedidos desde 2 bolsas</p>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav class="nav-left" aria-label="Navegacion principal">
+        <a href="#productos">Productos</a>
+        <a href="#combos">Combos</a>
+      </nav>
+      <a class="brand" href="#inicio" aria-label="Dulce y Pica inicio">
+        <span class="brand-icon" aria-hidden="true">P</span>
+        <span>DULCE <b>&</b> PICA</span>
+      </a>
+      <nav class="nav-right" aria-label="Navegacion secundaria">
+        <a href="#nosotros">Nuestra historia</a>
+        <button class="cart-button" type="button" aria-label="Abrir carrito">Carrito <span class="cart-count">0</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Menu movil">
+    <a href="#productos">Productos</a>
+    <a href="#combos">Combos</a>
+    <a href="#nosotros">Nuestra historia</a>
+  </nav>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Frescas · Crujientes · Picantes</p>
+        <h1>Un dulce,<br><em>dos emociones.</em></h1>
+        <p class="hero-text">Gomitas cubiertas a mano con mezclas especiales de chamoy y chile. Perfectas para picar, regalar o compartir.</p>
+        <div class="hero-actions">
+          <a class="button" href="#productos">Comprar ahora</a>
+          <a class="text-link" href="#combos">Ver combos <span>→</span></a>
+        </div>
+        <div class="rating"><b>4.9</b><span>★★★★★</span><small>+500 pedidos felices</small></div>
+      </div>
+      <div class="hero-art" aria-label="Bolsas de gomitas enchiladas">
+        <div class="sunburst"></div>
+        <div class="bag bag-one"><div class="bag-seal"></div><span>DULCE<br>& PICA</span><small>GOMITAS MIXTAS</small><i></i></div>
+        <div class="bag bag-two"><div class="bag-seal"></div><span>PIQUITO<br>EXTREMO</span><small>CHILE + LIMON</small><i></i></div>
+        <div class="chili chili-one"></div>
+        <div class="chili chili-two"></div>
+        <div class="gummy gummy-one"></div>
+        <div class="gummy gummy-two"></div>
+        <div class="gummy gummy-three"></div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefits-grid">
+        <div><span>01</span><p><b>Recién preparadas</b><small>Hechas por pedido</small></p></div>
+        <div><span>02</span><p><b>Calidad premium</b><small>Ingredientes seleccionados</small></p></div>
+        <div><span>03</span><p><b>Envios seguros</b><small>Empaque sellado al vacío</small></p></div>
+      </div>
+    </section>
+
+    <section id="productos" class="products-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Nuestros favoritos</p><h2>Elige tu nivel de picante</h2></div>
+          <div class="filters" role="group" aria-label="Filtrar productos">
+            <button class="active" type="button" data-filter="todos">Todos</button>
+            <button type="button" data-filter="dulce">Dulce</button>
+            <button type="button" data-filter="medio">Medio</button>
+            <button type="button" data-filter="extremo">Extremo</button>
+          </div>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-level="dulce">
+            <div class="product-visual visual-mango">
+              <span class="tag">Más vendido</span>
+              <div class="jar"><div class="jar-lid"></div><span>MANGO<br><small>DULCE</small></span><i></i></div>
+              <button class="wishlist" type="button" aria-label="Agregar Mango Enamoradito a favoritos">♡</button>
+            </div>
+            <div class="product-info"><p>Suave · Agridulce</p><h3>Mango Enamoradito</h3><div><strong>$120</strong><button class="quick-add" type="button" data-name="Mango Enamoradito" data-price="120">Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-level="medio">
+            <div class="product-visual visual-tropical">
+              <div class="jar"><div class="jar-lid"></div><span>TROPICAL<br><small>MEDIO</small></span><i></i></div>
+              <button class="wishlist" type="button" aria-label="Agregar Tropical Picosito a favoritos">♡</button>
+            </div>
+            <div class="product-info"><p>Medio · Sabroso</p><h3>Tropical Picosito</h3><div><strong>$135</strong><button class="quick-add" type="button" data-name="Tropical Picosito" data-price="135">Agregar</button></div></div>
+          </article>
+          <article class="product-card" data-level="extremo">
+            <div class="product-visual visual-acida">
+              <span class="tag tag-red">Retador</span>
+              <div class="jar"><div class="jar-lid"></div><span>ACIDA<br><small>EXTREMO</span></span><i></i></div>
+              <button class="wishlist" type="button" aria-label="Agregar Agridulce Extrema a favoritos">♡</button>
+            </div>
+            <div class="product-info"><p>Extremo · Ácida</p><h3>Agridulce Extrema</h3><div><strong>$145</strong><button class="quick-add" type="button" data-name="Agridulce Extrema" data-price="145">Agregar</button></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="combos" class="combo-section">
+      <div class="container combo-grid">
+        <div class="combo-art">
+          <div class="party-circle"></div>
+          <div class="mini-bag mini-one"><span>DULCE</span><i></i></div>
+          <div class="mini-bag mini-two"><span>MEDIO</span><i></i></div>
+          <div class="mini-bag mini-three"><span>PICANTE</span><i></i></div>
+        </div>
+        <div class="combo-copy">
+          <p class="eyebrow">Arma tu fiesta</p>
+          <h2>El combo perfecto<br>para compartir</h2>
+          <p>3 bolsas de 500g con sabores surtidos, presentación lista para regalar y envío incluido en pedidos locales.</p>
+          <div class="combo-price"><strong>$340</strong><small>Ahorra $65</small></div>
+          <button class="button add-combo" type="button" data-name="Combo Fiesta 3 Bolsas" data-price="340">Agregar combo</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="story-section">
+      <div class="container story-grid">
+        <div class="story-copy">
+          <p class="eyebrow">Hecho con actitud</p>
+          <h2>De un antojo a una tradición</h2>
+          <p>Todo comenzó con una receta de familia y muchas pruebas para encontrar el balance perfecto entre dulce, ácido y picante.</p>
+          <blockquote>“Queremos que cada bolsa tenga ese primer momento sorpresa que hace sonreír a todos.”</blockquote>
+          <a class="text-link" href="#productos">Conoce nuestros sabores <span>→</span></a>
+        </div>
+        <div class="story-visual">
+          <div class="flavor-card flavor-one"><span>Chamoy</span></div>
+          <div class="flavor-card flavor-two"><span>Chile</span></div>
+          <div class="flavor-card flavor-three"><span>Limon</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <div><p class="eyebrow">Club Dulce & Pica</p><h2>Promos picantes en tu correo</h2></div>
+        <form><label class="sr-only" for="email">Correo electronico</label><input id="email" type="email" placeholder="Tu correo electrónico" required><button type="submit">Unirme</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-icon">P</span><span>DULCE <b>&</b> PICA</span></a><p>Antojos preparados con actitud.</p></div>
+      <div><h3>Comprar</h3><a href="#productos">Productos</a><a href="#combos">Combos</a><a href="#productos">Ediciones especiales</a></div>
+      <div><h3>Ayuda</h3><a href="#">Envios</a><a href="#">Cambios y devoluciones</a><a href="#">Preguntas frecuentes</a></div>
+      <div><h3>Social</h3><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">WhatsApp</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Dulce & Pica</span><span>Hecho para antojar</span></div>
+  </footer>
+
+  <aside class="cart-drawer" aria-hidden="true">
+    <button class="cart-overlay" type="button" aria-label="Cerrar carrito"></button>
+    <div class="cart-panel">
+      <div class="cart-header"><div><p>Tu pedido</p><h2>Bolsa de compras</h2></div><button class="cart-close" type="button" aria-label="Cerrar">×</button></div>
+      <div class="cart-items"><p class="empty-cart">Tu bolsa está vacía.</p></div>
+      <div class="cart-footer"><div class="subtotal"><span>Total</span><strong>$0.00</strong></div><p>Envio y datos de entrega se confirman por WhatsApp.</p><button class="checkout-button" type="button" disabled>Pedir por WhatsApp</button></div>
+    </div>
+  </aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
