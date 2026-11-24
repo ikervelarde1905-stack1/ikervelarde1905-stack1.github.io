@@ -46,7 +46,7 @@ checkout.addEventListener("click",()=>{
   let message="Hola, quiero hacer este pedido:%0A";
   cart.forEach((item,name)=>{message+=`• ${item.quantity} x ${name} - ${money(item.price*item.quantity)}%0A`});
   message+=`%0ATotal: ${subtotal.textContent}`;
-  window.open(`https://wa.me/525555550000?text=${message}`,"_blank","noopener");
+  window.open(`https://wa.me/526674217660?text=${message}`,"_blank","noopener");
 });
 document.querySelectorAll(".filters button").forEach(button=>{
   button.addEventListener("click",()=>{
